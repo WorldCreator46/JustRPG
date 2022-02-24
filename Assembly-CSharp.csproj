@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\DontDestoryObject.cs" />
     <Compile Include="Assets\Store\Pixel Art Top Down - Basic\Script\TopDownCharacterController.cs" />
     <Compile Include="Assets\Store\Bandits - Pixel Art\Demo\Bandit.cs" />
     <Compile Include="Assets\Store\Hero Knight - Pixel Art\Demo\Sensor_HeroKnight.cs" />
@@ -65,15 +66,15 @@
     <Compile Include="Assets\Store\Pixel Art Top Down - Basic\Script\SpriteColorAnimation.cs" />
     <Compile Include="Assets\Store\Prototype Hero Demo - Pixel Art\Demo\Dust_DestroyEvent.cs" />
     <Compile Include="Assets\Store\Hero Knight - Pixel Art\Demo\HeroKnight.cs" />
+    <Compile Include="Assets\Script\GameReady.cs" />
+    <Compile Include="Assets\Script\Exit.cs" />
     <Compile Include="Assets\Store\Prototype Hero Demo - Pixel Art\Demo\Sensor_Prototype.cs" />
     <Compile Include="Assets\Store\Pixel Art Top Down - Basic\Script\LayerTrigger.cs" />
     <Compile Include="Assets\Store\Hero Knight - Pixel Art\ColorSwap\ColorSwap_HeroKnight.cs" />
     <Compile Include="Assets\Store\Prototype Hero Demo - Pixel Art\Demo\AudioManager_PrototypeHero.cs" />
     <Compile Include="Assets\Store\Hero Knight - Pixel Art\Demo\DestroyEvent_HeroKnight.cs" />
     <Compile Include="Assets\Store\Pixel Art Top Down - Basic\Script\CameraFollow.cs" />
-    <Compile Include="Assets\Script\Exit.cs" />
-    <Compile Include="Assets\Script\GameReady.cs" />
-    <Compile Include="Assets\Script\DontDestoryObject.cs" />
+    <Compile Include="Assets\Script\SceneChange.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Store\Pixel Art Top Down - Basic\Changelog.txt" />

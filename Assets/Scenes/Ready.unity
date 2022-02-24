@@ -216,8 +216,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1457762882}
   - component: {fileID: 1457762885}
-  - component: {fileID: 1457762884}
   - component: {fileID: 1457762883}
+  - component: {fileID: 1457762884}
   m_Layer: 0
   m_Name: GameReady
   m_TagString: Untagged
