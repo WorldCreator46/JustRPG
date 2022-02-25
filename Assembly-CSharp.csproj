@@ -68,13 +68,13 @@
     <Compile Include="Assets\Store\Hero Knight - Pixel Art\Demo\HeroKnight.cs" />
     <Compile Include="Assets\Script\GameReady.cs" />
     <Compile Include="Assets\Script\Exit.cs" />
+    <Compile Include="Assets\Script\SceneChange.cs" />
     <Compile Include="Assets\Store\Prototype Hero Demo - Pixel Art\Demo\Sensor_Prototype.cs" />
     <Compile Include="Assets\Store\Pixel Art Top Down - Basic\Script\LayerTrigger.cs" />
     <Compile Include="Assets\Store\Hero Knight - Pixel Art\ColorSwap\ColorSwap_HeroKnight.cs" />
     <Compile Include="Assets\Store\Prototype Hero Demo - Pixel Art\Demo\AudioManager_PrototypeHero.cs" />
     <Compile Include="Assets\Store\Hero Knight - Pixel Art\Demo\DestroyEvent_HeroKnight.cs" />
     <Compile Include="Assets\Store\Pixel Art Top Down - Basic\Script\CameraFollow.cs" />
-    <Compile Include="Assets\Script\SceneChange.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Store\Pixel Art Top Down - Basic\Changelog.txt" />
@@ -84,6 +84,7 @@
     <None Include="Assets\Store\Martial Hero\License.txt" />
     <None Include="Assets\Store\Hero_Knight_2\License.txt" />
     <None Include="Assets\Store\EVil Wizard\License.txt" />
+    <None Include="Assets\Store\Hand Painted Seamless Wood Texture\Documentation\Documentation.txt" />
     <None Include="Assets\Store\Pixel Art Top Down - Basic\Shader\SH Sprite Shadow Mask.shader" />
     <None Include="Assets\Store\Nature\pixel_snapping_README.txt" />
     <None Include="Assets\Store\Hero Knight - Pixel Art\ColorSwap\Sprites-ColorSwap.shader" />
