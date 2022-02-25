@@ -5,7 +5,7 @@ public class SceneChange : MonoBehaviour
 {
     public void GoOptions()
     {
-        SceneManager.LoadScene("Options");
+        SceneManager.LoadScene("OptionMenu");
     }
     public void Goplay()
     {
