@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Newtonsoft.Json;
+using System.Collections.Generic;
 
 public class SceneChange : MonoBehaviour
 {
@@ -10,5 +12,9 @@ public class SceneChange : MonoBehaviour
     public void Goplay()
     {
         SceneManager.LoadScene("Play");
+    }
+    private void Start()
+    {
+        Debug.Log(JsonConvert.SerializeObject(Event.EventList).GetType());
     }
 }

@@ -1,18 +1,21 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Newtonsoft.Json;
 
 public class Event : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public static Dictionary<string, object> EventList = new Dictionary<string, object>()
     {
-        
+        {"Tutorial", false},
+        {"", "1" },
+        {"1", 1 },
+    };
+    public static string GetEvent()
+    {
+        return JsonConvert.SerializeObject(Event.EventList);
     }
-
-    // Update is called once per frame
-    void Update()
+    public static void SetEvent(string json)
     {
-        
+        EventList = JsonConvert.DeserializeObject<Dictionary<string,object>>(json);
     }
 }
