@@ -15,6 +15,6 @@ public class SceneChange : MonoBehaviour
     }
     private void Start()
     {
-        Debug.Log(JsonConvert.SerializeObject(Event.EventList).GetType());
+
     }
 }

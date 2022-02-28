@@ -60,6 +60,7 @@
     <Compile Include="Assets\Store\Pixel Art Top Down - Basic\Script\TopDownCharacterController.cs" />
     <Compile Include="Assets\Store\Bandits - Pixel Art\Demo\Bandit.cs" />
     <Compile Include="Assets\Store\Hero Knight - Pixel Art\Demo\Sensor_HeroKnight.cs" />
+    <Compile Include="Assets\Script\Character.cs" />
     <Compile Include="Assets\Store\Pixel Art Top Down - Basic\Script\PropsAltar.cs" />
     <Compile Include="Assets\Store\Bandits - Pixel Art\Demo\Sensor_Bandit.cs" />
     <Compile Include="Assets\Store\Prototype Hero Demo - Pixel Art\Demo\PrototypeHeroDemo.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Assets\Store\Hero Knight - Pixel Art\Demo\DestroyEvent_HeroKnight.cs" />
     <Compile Include="Assets\Script\Save.cs" />
     <Compile Include="Assets\Store\Pixel Art Top Down - Basic\Script\CameraFollow.cs" />
+    <Compile Include="Assets\Script\Datas.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Store\Pixel Art Top Down - Basic\Changelog.txt" />
