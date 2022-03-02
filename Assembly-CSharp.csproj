@@ -71,6 +71,7 @@
     <Compile Include="Assets\Script\GameReady.cs" />
     <Compile Include="Assets\Script\Exit.cs" />
     <Compile Include="Assets\Script\Datas.cs" />
+    <Compile Include="Assets\Script\KeyControll.cs" />
     <Compile Include="Assets\Script\SceneChange.cs" />
     <Compile Include="Assets\Store\Prototype Hero Demo - Pixel Art\Demo\Sensor_Prototype.cs" />
     <Compile Include="Assets\Store\Pixel Art Top Down - Basic\Script\LayerTrigger.cs" />
@@ -79,7 +80,7 @@
     <Compile Include="Assets\Store\Hero Knight - Pixel Art\Demo\DestroyEvent_HeroKnight.cs" />
     <Compile Include="Assets\Script\Save.cs" />
     <Compile Include="Assets\Store\Pixel Art Top Down - Basic\Script\CameraFollow.cs" />
-    <Compile Include="Assets\Script\KeyControll.cs" />
+    <Compile Include="Assets\Script\FristScene.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Store\Pixel Art Top Down - Basic\Changelog.txt" />

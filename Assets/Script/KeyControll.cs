@@ -4,5 +4,8 @@ using UnityEngine;
 
 public class KeyControll : MonoBehaviour
 {
-
+    void Update()
+    {
+        
+    }
 }

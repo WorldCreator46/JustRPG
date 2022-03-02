@@ -15,5 +15,8 @@ public class Datas
         }
         return temp.ToString();
     }
-    public static Dictionary<string, Character> Characters = new Dictionary<string, Character>() { };
+    public static Dictionary<string, Character> Characters = new Dictionary<string, Character>()
+    {
+        {"Player", new Character()}
+    };
 }

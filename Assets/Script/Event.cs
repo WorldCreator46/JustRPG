@@ -6,9 +6,7 @@ public class Event : MonoBehaviour
 {
     public static Dictionary<string, object> EventList = new Dictionary<string, object>()
     {
-        {"Tutorial", false},
-        {"", "1" },
-        {"1", 1 },
+        {"Tutorial", false}
     };
     public static string GetEvent()
     {
